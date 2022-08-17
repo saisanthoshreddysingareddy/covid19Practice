@@ -35,7 +35,7 @@ const changingDistrictName = (everyDistrict) => {
     stateId: everyDistrict.state_id,
     cases: everyDistrict.cases,
     cured: everyDistrict.cured,
-    active: everyDistrict.cured,
+    active: everyDistrict.active,
     deaths: everyDistrict.deaths,
   };
 };
